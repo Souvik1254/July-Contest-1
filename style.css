@@ -1,0 +1,95 @@
+
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 1px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.bodypart{
+    margin-inline: 38px;
+}
+
+.navbar{
+    background-color: black;
+    height: 87px;
+    align-items: center;
+    display: flex;
+}
+
+.navbar a{
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.navbar a.active {
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-weight: 300;
+  }
+
+  .Heading {
+    margin: 3rem auto 2rem auto;
+  }
+
+.text{
+    font-weight: 300;
+}
+
+button {
+    background-color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    width: 226px;
+    height: 58px;
+  }
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.img {
+    width: 729px;
+    height: 911px;
+    object-fit: cover;
+}
+
+ol,ul{
+    font-weight: 300;
+}
+
+table {
+    width: 100%;
+    height: 755px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+th {
+    padding-left: 38px;
+}
+
+td {
+    padding-left: 42px;
+}
+
+th:not(:last-child),
+td:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+tr:first-child {
+    border-bottom: 1px solid black;
+}
+
+tr:last-child {
+    background: #000;
+    color: white;
+}
